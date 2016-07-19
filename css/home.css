@@ -44,6 +44,14 @@ html, body {
 	font-size: 1.25em;
 }
 
+#occupation-link {
+	text-decoration: none;
+}
+
+	#occupation-link:hover {
+		
+	}
+
 #social {
 	margin-top: 15px;
 }
