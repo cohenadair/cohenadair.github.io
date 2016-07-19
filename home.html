@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Cohen Adair | Personal Website</title>
+		
+		<link type="image/vnd.microsoft.icon" href="favicon.png" rel="icon">
+		<link type="text/css" rel="stylesheet" href="css/home.css">			
+		<script src="js/jquery.js"></script>
+		<script src="js/lib.js"></script>
+		
+		<script>
+			$(document).ready(function() {				
+				shrinkText("#title-name", "#content");
+				
+				// center the content vertically
+				if ($("#content").height() < $(window).height()) {
+					$("#content").css({
+						"top" : ($(window).height() - $("#content").height()) / 2
+					});
+				}
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div id="content">
+			<div id="title-name">Cohen Adair</div>
+			<div id="occupation" class="center">Computer Science student at Northern Michigan University</div>
+			
+			<div class="line-break"></div>
+			
+			<div id="social" class="center">
+				<div class="social"><a target="_blank" href="https://www.facebook.com/cohen.adair"><img src="img/facebook.png" width="75" height="75" title="Facebook"></a></div>
+				<div class="social"><a target="_blank" href="https://github.com/cohenadair"><img src="img/github.png" width="75" height="75" title="Github"></a></div>
+				<div class="social"><a target="_blank" href="https://plus.google.com/+CohenAdair"><img src="img/googleplus.png" width="75" height="75" title="Google+"></a></div>
+				<div class="social"><a target="_blank" href="https://www.linkedin.com/in/cohenadair"><img src="img/linkedin.png" width="75" height="75" title="LinkedIn"></a></div>
+				<div class="social"><a target="_blank" href="http://instagram.com/cohenadair"><img src="img/instagram.png" width="75" height="75" title="Instagram"></a></div>
+				<div class="social"><a target="_blank" href="https://twitter.com/cohenadair/"><img src="img/twitter.png" width="75" height="75" title="Twitter"></a></div>
+			</div>
+			
+			<nav>
+				<div class="nav" id="portfolio">
+					<a href="anglerslog/">
+						<img src="img/anglerslog.png" width="75" height="75"></img><br>
+						Anglers' Log
+					</a>
+				</div>
+
+				<div class="nav" id="projects">
+					<a href="tapthatcolour/">
+						<img src="tapthatcolour/img/icon.png" width="75" height="75"></img><br>
+						Tap That Colour
+					</a>
+				</div>
+			</nav>
+		</div>
+	</body>
+</html>

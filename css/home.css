@@ -1,0 +1,93 @@
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	max-width: 1000px;
+	margin: auto;
+	background-image: url(../img/bg.png);
+}
+
+.line-break {
+	width: 100%;
+	height: 1px;
+	background-color: gray;
+}
+
+#title-name {
+	font-size: 75px;
+	margin-bottom: 10px;
+}
+
+#title-name, #occupation {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+}
+
+.center {
+	text-align: center;
+}
+
+#content {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+
+#occupation {
+	font-style: italic;
+	margin-bottom: 30px;
+	font-size: 1.25em;
+}
+
+#social {
+	margin-top: 15px;
+}
+
+	.social {
+		margin-top: 15px;
+		margin-right: 10px;
+		display: inline-block;
+	}
+	
+nav {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 100%;
+}
+	
+	.nav {
+		display: inline-block;
+		color: gray;
+		text-align: center;
+	}
+	
+		.nav:hover {
+			border-bottom: 2px solid #999999;
+		}
+		
+		.nav a {
+			color: gray;
+			text-decoration: none;
+			display: block;
+			padding-bottom: 5px;
+			padding-top: 10px;
+		}
+
+			.nav a img {
+				margin-bottom: 10px;
+			}
+		
+	#portfolio {
+		margin-right: 15px;
+	}
+	
+	#projects {
+		margin-left: 15px;
+	}
+	
